@@ -1,0 +1,218 @@
+/*This page is for the css of the restaurant.*/
+body{
+margin: 0;
+padding: 0;
+width: auto;
+height: auto;
+background-image: url(../images/restbg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+backface-visibility: 10%;
+}   
+
+a {
+  text-decoration: none;
+}
+
+
+a:link a:visited{
+  color:#006400;
+
+}
+
+
+a:hover, a:active{
+  background-color: #FFDAB9;
+
+}
+
+.mainheader nav{
+  margin: 2% 0;
+  background-color: rgba(0,0,0,0);
+  height: 40px;
+  color:#8B0000;
+}
+
+.mainheader nav ul{
+  list-style: none;
+  margin: 0 auto;
+  color:#8B0000;
+}
+
+.mainheader nav ul li{
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  color:#8B0000;
+}
+
+.mainheader nav a:link a:visited{
+  color: #8B0000;;
+  display: inline-block;
+  padding: 20px;
+}
+
+.mainheader nav a:hover, .mainHeader nav a:active, 
+.mainheader nav .actuve a:link, .mainheader nav .active a:visited{
+  background-color: #FFF8DC;
+  color:#8B0000;
+  text-shadow: transparent;
+}
+
+.mainHeader nav ul li a{
+  /*border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;*/
+}
+
+
+.maincontent{
+  line-height: 25px;
+  /*border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;*/
+}
+
+.content{
+  width: 70%;
+  float: left;
+  font-family: 'Handlee', cursive;
+  font-size: 25px;
+
+}
+
+.topcontent{
+  /*border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;*/
+  padding: 3% 5%;
+  margin-top: 2px;
+  text-align: justify;
+}
+
+.topside{
+  width: 27%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  float: left;
+  text-align: justify;
+  padding: 5px;
+  border-width:1px;
+  border-style: dashed;
+  border-color: #191414;
+  box-sizing: border-box;
+}
+
+.topside h2{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+.topside ul{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 16px;
+}
+
+.lowside{
+  width: 27%;
+  margin-left: 73%;
+  margin-bottom: 10%;
+  float: left;
+   /*border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;*/
+  text-align: justify;
+  padding: 5px;
+  border-width:1px;
+  border-style: dashed;
+  border-color: #191414;
+  box-sizing: border-box;
+}
+
+
+.lowside h2{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+.lowside article{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 16px;
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+.body{
+  width: 90%;
+  font-size: 90%;
+}
+
+.mainheader nav{
+  height: 160px;
+}
+
+.mainheader nav ul{
+  padding-left: 0;
+}
+
+.mainheader nav ul li{
+  width: 100%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited{
+  height: 20px;
+  padding: 10px 25px;
+}
+
+
+.maincontent{
+  line-height: 25px;
+  /*border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;*/
+}
+
+.content{
+  width: 100%;
+  float: left;
+  margin-top: 3%;
+  color: #2F4F4F;
+}
+
+.topcontent{
+  /*border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;*/
+  padding: 3% 5%;
+  margin-top: 2px;
+  text-align: justify;
+}
+
+.topside, .lowside{
+  width: 95%;
+  margin: 2% 0 2% 0;
+  padding: 2% 3%;
+  color: #2F4F4F;
+}
+
+}
+
+.body{
+  margin: 0 auto;
+  clear: both;
+  width: 65%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  background: rgba(0,0,0,.5);
+ 
+}

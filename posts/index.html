@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LoginPage</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico|Satisfy" rel="stylesheet">
+	<script type="text/javascript">
+var RE_EMAIL = /^(\w+[\-\.])*\w+@(\w+\.)+[A-Za-z]+$/; var RE_PASSWORD = /^[A-Za-z\d]{6,8}$/;
+function validate() {
+var email = form.Email.value;
+var password = form.Password.value;
+var errors = [];
+if (!RE_EMAIL.test(email)) { alert( "You must enter a valid email address."); }
+if (!RE_PASSWORD.test(password)) { alert( "You must enter a valid password."); } }
+</script>
+</head>
+<body>
+
+	<h1> The Hungry Traveller</h1>
+	<div class="LoginBox">
+		<h1>Login</h1>
+		<form id="form1" onsubmit="return validate()" method="post">
+			<p>Email</p>
+			<input type="text" name="" placeholder="Enter Email">
+			<p>Password</p>
+			<input type="password" name="" placeholder="*******">
+			<br>
+			<a href="Register.html" target="_blank">Register</a>
+
+		</form>
+	</div>
+
+	<div class="footer">
+  <p>Copyright, 2019</p>
+</div>
+
+</body>
+</html>
